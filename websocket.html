@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        canvas {
+            border:1px solid black;
+        }
+        div {
+            width: 450px;
+            height:450px;
+            float:right;
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="450" height="450" >
+    Oops get a better browser. 
+    <a href="http://firefox.com/update">Firefox</a>
+    <a href="https://www.google.com/intl/en/chrome/">Chrome</a>
+    </canvas>
+    <div>
+        I listen to sockets
+        <ul id="iAmList">
+        </ul>
+    </div>
+    <script src="http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./myCanvas.js"></script>
+</body>
+</html>
